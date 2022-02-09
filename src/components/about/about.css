@@ -1,0 +1,155 @@
+.about-section_container-items {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+.off{
+  width: 100%;
+  height: calc(1em + 1vh);
+}
+  .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8vw;
+    height: 100vh;
+    z-index: -1;
+  }
+  
+  .about-section_container-items img {
+    height: 9vh;
+    transform: rotate(270deg);
+  }
+  
+  .about-container_cards {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .about-container {
+    margin: 25px;
+    padding: 25px;
+    height: 38vh;
+    width: 37vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #ffcc00;
+    font-size: calc(.4em + 1vh);
+    font-family: var(--font-family);
+    box-shadow: 2px 5px 5px rgb(194, 193, 193);
+    border-radius: 5px;
+  }
+
+  .about-container a{
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
+    font-weight: 700;
+  }
+
+  .about-container button{
+  border: none;
+  background-color: white;
+  height: 1.5em;
+  width: 7em;
+  font-size: 1em;
+  color: black;
+  font-weight: 700;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  }
+  .about-container button:hover{
+    transform: scale(1.2);
+  }
+  
+  .whoami {
+    background-image: url("../../assets/whoami.png");
+    background-repeat: no-repeat;
+    background-size: 4vw 4vw;
+    background-position: 3vh 3vh;
+  }
+  
+  .experience {
+    background-image: url("../../assets/experience.png");
+    background-repeat: no-repeat;
+    background-size: 4vw 4vw;
+    background-position: 3vh 3vh;
+  }
+  
+  .career {
+    background-image: url("../../assets/expectations.png");
+    background-repeat: no-repeat;
+    background-size: 4vw 4vw;
+    background-position: 3vh 3vh;
+  }
+  
+  .expectations {
+    background-image: url("../../assets/career.png");
+    background-repeat: no-repeat;
+    background-size: 4vw 4vw;
+    background-position: 3vh 3vh;
+  }
+  
+  @media screen and (max-width: 1050px) {
+    .about-section_container-items {
+      flex-direction: column;
+      width: 100vw;
+      height: auto;
+    }
+    .img {
+      height: 22vw;
+      padding: 8vw;
+    }
+    .about-section_container-items img {
+      transform: rotate(0);
+      height: 13vw;
+    }
+    .about-container {
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+      align-items: center;
+      width: 100vw;
+      height: 60vw;
+    }
+    .experience,
+    .career,
+    .expectations,
+    .whoami {
+      background-size: calc(20vw - 3em);
+      font-size: 3vw;
+    }
+  }
+
+  @media screen and (max-width: 768px){
+    .about-section_container-items{
+      margin-top: 50vw;
+      height: auto;
+    }
+    .experience,
+    .career,
+    .expectations,
+    .whoami {
+      background-size: 10vw;
+      font-size: 3vw;
+    }
+  }
+  @media screen and (max-width: 500px){
+    .experience,
+    .career,
+    .expectations,
+    .whoami {
+      background-size: 7vw;
+      font-size: 3vw;
+    }
+  }
+  
