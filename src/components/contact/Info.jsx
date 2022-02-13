@@ -14,13 +14,13 @@ const Info = () => {
     </div>
       <div className="info_container-links">
         <a target="_blank" rel="noopener noreferrer" href="https://youtube.com">
-          <VscFilePdf size={80} color="#ffcc00" />
+          <VscFilePdf size={60} color="#ffcc00" />
         </a>
         <a target="_blank" rel="noopener noreferrer" href="https://youtube.com">
-          <BsLinkedin size={80} color="#ffcc00" />
+          <BsLinkedin size={60} color="#ffcc00" />
         </a>
         <a target="_blank" rel="noopener noreferrer" href="https://youtube.com">
-          <BsGithub size={80} color="#ffcc00" />
+          <BsGithub size={60} color="#ffcc00" />
         </a>
       </div>
     </div>

@@ -103,6 +103,9 @@ textarea{
     box-shadow: var(--box-shadow);
     cursor: pointer;
   }
+  .contact_container-form-items h1{
+    color: var(--color-main);
+  }
 
 
 /* Spinner */
@@ -129,13 +132,50 @@ textarea{
     align-items: center;
     flex-direction: column;
   }
-  .contact_container-form{
+  .contact_container-form-items{
     width: 100%;
     height: auto;
     display: flex;
     justify-content:center;
     align-items: center;
     flex-direction: column;
+  }
+  .form{
+    width: 80vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact_container-form-items h1{
+  color: var(--color-main);
+}
+  .contact_container-form{
+    width: 100%;
+    height: auto;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.info_container{
+  width: 100%;
+  height: auto;
+  font-size: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info_container-info{
+  width: 100%;
+  height: auto;
+  font-size: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
   
 }
