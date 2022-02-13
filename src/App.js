@@ -9,6 +9,7 @@ function App() {
    <Main/>
    <About/>
    <Portfolio/>
+   <Contact/>
     </div>
   );
 }

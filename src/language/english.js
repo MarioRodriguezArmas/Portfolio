@@ -2,7 +2,7 @@ const us = [
   {
     main: "Main",
     about: "About",
-    portfolio: "Portfolio",
+    portfolio: "Projects",
     contact: "Contact",
 
     //Main
@@ -13,7 +13,7 @@ const us = [
     //About
 
     who: "About Me",
-    info: "I'm Mario Alberto Rodriguez Armas, I live in Guadalajara, Jalisco Mexico. I studied Economics but I didn't graduate, then I studied Radiologic Technology which I finished it in 2017 I've got a B2 certification on english language from the University of Guadalajara. Coffee, Reading and learning new things are the hobbies I like the most.",
+    info: "I'm Mario Alberto Rodriguez Armas, I live in Guadalajara, Jalisco Mexico. I studied Economics but I didn't graduate, then I studied Radiologic Technology which I finished it in 2017 I've got a B2 certification on english language from the University of Guadalajara. Coffee, Coding, Reading and learning new things are the hobbies I like the most.",
 
     motiv: "Motivation & Beginings",
     info2:
@@ -30,15 +30,29 @@ const us = [
     //Portfolio
 
     modern:
-      "Whit a modern design this Web site was made using <b>ReactJs</b> as JS library and <b>BEM</b> methodology for CSS styles. <br/><br/><b>Special acknowledgement to Mastery Javascript for his guidance and the idea of this project.</b>",
+      "Whit a modern and responsive design this Web site was made using ReactJs as JS library and BEM methodology for CSS styles. Special acknowledgement to Mastery Javascript for his guidance and the idea of this project.",
     share:
-      "Whit a modern design this social media was made using <b>ReactJs</b> as JS library, <b>Tailwind</b> for CSS styles, <b>Google OAuth API</b> for register and login and <b>Sanity</b> CMS as backend. <br/><br/><b>Special acknowledgement to Mastery Javascript for his guidance and the idea of this project.</b>",
+      "Whit a modern design this social media was made using <b>ReactJs</b> as JS library, <b>Tailwind</b> for CSS styles, <b>Google OAuth API</b> for register and login and <b>Sanity</b> CMS as backend.Special acknowledgement to Mastery Javascript for his guidance and the idea of this project.",
     bilingual:
-      "In order to create a multi-lingual app it was used <b>ReactJs</b> as JS library, the set of libraries from <b>FormatJS</b> and <b>plain CSS</b> for the styles. The intention was to create an EN-ES app and apply autoformat when changing the language.",
+      "In order to create a multi-lingual app it was used ReactJs as JS library, the set of libraries from FormatJS and plain CSS for the styles. The intention was to create an EN-ES app and apply autoformat when changing the language.",
     login:
-      "This functionality allows to control the acces to private routes to users by login or registering and then login. It was made using <b>ReactJs</b> as JS library, <b>expressJS with MongoDB</b> for the backend. For Auth <b>JSWT, joi and bcrypt.</b>",
-    repo: "Repo",
+      "This functionality allows to control the acces to private routes to users by login or registering and then login. It was made using ReactJs as JS library, NodeJs with expressJs and MongoDB for the backend. For Auth JSWT, joi and bcrypt.",
+    moderntitle: "Modern UX UI",
+    logintitle: "Login-register MERN",
+    bititle: "Bilingual App",
+
+    repo: "Go Github",
     web: "Go visit",
+
+    //Contact
+    contactme: "Contact",
+    name: "Write your name",
+    email: "Write your email",
+    phone:"Write your phone number",
+    comments: "Comments",
+    sending: "Sending ...",
+    send: "Send",
+    message:"Message sent successfully"
   },
 ];
 
