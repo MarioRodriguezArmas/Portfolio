@@ -38,7 +38,7 @@ const us = [
     login:
       "This functionality allows to control the acces to private routes to users by login or registering and then login. It was made using ReactJs as JS library, NodeJs with expressJs and MongoDB for the backend. For Auth JSWT, joi and bcrypt.",
     moderntitle: "Modern UX UI",
-    logintitle: "Login-register MERN",
+    logintitle: "Login MERN",
     bititle: "Bilingual App",
 
     repo: "Go Github",

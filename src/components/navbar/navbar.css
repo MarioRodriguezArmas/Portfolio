@@ -21,7 +21,7 @@
 .navbar_container-items-links {
   width: 100%;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   font-weight: var(--title-font-weight);
 }
@@ -44,14 +44,14 @@
   padding: 3vw;
 }
 .btn-button {
-  padding: 0.2vw;
+  margin: 0.2vw;
   border: none;
   background-color: transparent;
   font-weight: var(--title-font-weight);
   color: var(--color-main);
 }
 .activebf {
-  padding: 0.2vw;
+  margin: 0.2vw;
   border: none;
   background-color: transparent;
   font-weight: var(--title-font-weight);
@@ -60,7 +60,7 @@
   cursor: pointer;
 }
 .activegf {
-  padding: 0.2vw;
+  margin: 0.2vw;
   border: none;
   background-color: transparent;
   font-weight: var(--title-font-weight);

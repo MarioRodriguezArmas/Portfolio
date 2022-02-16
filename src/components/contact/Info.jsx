@@ -13,13 +13,13 @@ const Info = () => {
       <h3>Tel: 3310257566</h3>
     </div>
       <div className="info_container-links">
-        <a target="_blank" rel="noopener noreferrer" href="https://youtube.com">
+        <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/11x-lMjW9IW--yLB8DDk-RGfQU8FwfVGg/view?usp=sharing">
           <VscFilePdf size={60} color="#ffcc00" />
         </a>
-        <a target="_blank" rel="noopener noreferrer" href="https://youtube.com">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mario-alberto-rodriguez-armas-507b98231/">
           <BsLinkedin size={60} color="#ffcc00" />
         </a>
-        <a target="_blank" rel="noopener noreferrer" href="https://youtube.com">
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/MarioRodriguezArmas">
           <BsGithub size={60} color="#ffcc00" />
         </a>
       </div>

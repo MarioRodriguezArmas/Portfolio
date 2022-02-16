@@ -32,7 +32,7 @@ const mx = [
     login:
       "Esta funcionalidad permite controlar el acceso a las rutas privadas de los usuarios iniciando sesión o registrándose y luego iniciando sesión. Se hizo usando ReactJs como biblioteca JS, Node Js con expressJS y MongoDB para el backend. Para la autenticación JSWT, joi y bcrypt.",
     moderntitle: "Modern UX UI",
-    logintitle: "Login-register MERN",
+    logintitle: "Login MERN",
     bititle: "Bilingual App",
     repo: "Ir a Github",
     web: "Visitar",

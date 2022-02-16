@@ -148,8 +148,9 @@
     .career,
     .expectations,
     .whoami {
+      height: auto;
       background-size: 7vw;
-      font-size: 3vw;
+      font-size: 1em;
     }
   }
   
